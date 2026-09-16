@@ -2,10 +2,11 @@
 
 declare(strict_types=1);
 
-namespace ZtdQuery\Adapter\Mysqli;
+namespace ZtdQuery\Adapter\Mysqli\Session;
 
 use mysqli_result;
 use ZtdQuery\Adapter\Mysqli\Driver\MysqliResultStatement;
+use ZtdQuery\Adapter\Mysqli\ZtdMysqliException;
 use ZtdQuery\Connection\Exception\DatabaseException;
 use ZtdQuery\ExecuteResult;
 use ZtdQuery\Rewrite\RewritePlan;

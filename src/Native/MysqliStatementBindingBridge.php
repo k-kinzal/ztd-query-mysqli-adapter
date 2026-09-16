@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ZtdQuery\Adapter\Mysqli;
+namespace ZtdQuery\Adapter\Mysqli\Native;
 
 use mysqli_stmt;
 use Override;
