@@ -26,9 +26,7 @@
     "phpstan/phpstan": "^2.1",
     "phpstan/phpstan-strict-rules": "^2.0",
     "phpunit/phpunit": "^10.5",
-    "squizlabs/php_codesniffer": "^4.0.4",
-    "ext-pdo": "*",
-    "k-kinzal/testcontainers-php": "^0.5.1"
+    "squizlabs/php_codesniffer": "^4.0.4"
   },
   "repositories": [
     {
@@ -46,8 +44,7 @@
     "psr-4": {
       "Tests\\": "tests/",
       "Fuzz\\": "fuzz/",
-      "Bench\\": "bench/",
-      "Container\\": "container/"
+      "Bench\\": "bench/"
     }
   },
   "scripts": {

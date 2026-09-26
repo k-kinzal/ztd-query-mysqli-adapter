@@ -14,4 +14,3 @@ phpcs.xml.dist           export-ignore
 phpstan.neon             export-ignore
 phpunit.xml.dist         export-ignore
 tree.yaml                export-ignore
-/container/              export-ignore
